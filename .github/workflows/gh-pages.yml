@@ -6,6 +6,7 @@ on:
   pull_request: {}
   push:
     branches: [main]
+  workflow_dispatch: null
 jobs:
   main:
     name: Build, Validate and Deploy
